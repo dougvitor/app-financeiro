@@ -26,6 +26,12 @@ public class CalculadoraTest {
 			e.printStackTrace();
 		}
 		
+		ICalculadora c1 = new Calc1Impl();
+		ICalculadora c2 = new Calc2Impl();
+		
+		System.out.println(c1.somar(1,2,3));
+		System.out.println(c2.somar(1,2,3));
+		
 	}
 
 }
